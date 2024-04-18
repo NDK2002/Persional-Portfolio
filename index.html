@@ -17,11 +17,10 @@
     <header>
         <div class="container container-header">
             <nav class="nav-header-group">
-                <div id="my-name">
+                <!-- <div id="my-name">
                     Nguyen Duy Khang
-                </div>
+                </div> -->
                 <div class="nav-bar">
-
                     <ul class="nav-group">
                         <li>
                             <a href="#about-me" class="nav-link">About</a>
@@ -36,11 +35,13 @@
                             <a href="#contact" class="nav-link">Contact</a>
                         </li>
                     </ul>
+                    <div>
+                        <button type="button" class="download-cv">Download CV</button>
+                    </div>
                 </div>
                 <div class="side-bar">
                     <i class="fa-solid fa-bars"></i>
                 </div>
-
                 <div class="dropdown_menu open">
                     <li>
                         <a href="#about-me" class="nav-link">About</a>
@@ -54,6 +55,7 @@
                     <li>
                         <a href="#contact" class="nav-link">Contact</a>
                     </li>
+                    <button type="button" class="download-cv">Download CV</button>
                 </div>
             </nav>
         </div>
@@ -62,8 +64,14 @@
     <main>
         <section class="section-center infor">
             <article id="personal-info">
-                <h1>Hello, I'm Khang</h1>
-                <h4>Full Stack Web Developer</h4>
+                <div class="position-info">
+                    <h1>Hello, I'm Khang</h1>
+                    <h4>Full Stack Web Developer</h4>
+                </div>
+                <div class="location-info">
+                    <i class="fa-solid fa-location-dot fa-lg"></i>
+                    <span>Ho Chi Minh, Viet Nam</span>
+                </div>
                 <a href="#contact" class="btn contact-btn">Contact Me</a>
                 <ul class="social-icons social-icon-group">
                     <li><a href="http://" target="_blank" rel="noopener noreferrer" class="social-icon">
@@ -78,35 +86,38 @@
             </article>
             <article class="personal-img">
                 <img src="/assets/images/personal-img.jpg" alt="Persional Images" loading="lazy">
+                <div class="background-img background-img-info"></div>
             </article>
         </section>
+
         <section id="about-me">
+            <div class="about-title">
+                <span>About me</span>
+            </div>
             <div class="section-center section-about">
-                <article class="about-info">
-                    <div class="about-title">
-                        <h2>About <span>Me</span></h2>
-                    </div>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quaerat iusto quam eligendi quae culpa.
-                        Voluptate voluptas ducimus doloremque, accusamus repellat, pariatur fuga ipsum temporibus sunt
-                        molestias, voluptatem esse rem ut?</p>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quaerat iusto quam eligendi quae culpa.
-                        Voluptate voluptas ducimus doloremque, accusamus repellat, pariatur fuga ipsum temporibus sunt
-                        molestias, voluptatem esse rem ut?</p>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quaerat iusto quam eligendi quae culpa.
-                        Voluptate voluptas ducimus doloremque, accusamus repellat, pariatur fuga ipsum temporibus sunt
-                        molestias, voluptatem esse rem ut?</p>
-                </article>
                 <article class="about-img">
+                    <div class="background-img background-img-about"></div>
                     <img src="/assets/images/personal-img.jpg" alt="Persional Images">
+                </article>
+                <article class="about-info">
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quaerat iusto quam eligendi quae culpa.
+                        Voluptate voluptas ducimus doloremque, accusamus repellat, pariatur fuga ipsum temporibus sunt
+                        molestias, voluptatem esse rem ut?</p>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quaerat iusto quam eligendi quae culpa.
+                        Voluptate voluptas ducimus doloremque, accusamus repellat, pariatur fuga ipsum temporibus sunt
+                        molestias, voluptatem esse rem ut?</p>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quaerat iusto quam eligendi quae culpa.
+                        Voluptate voluptas ducimus doloremque, accusamus repellat, pariatur fuga ipsum temporibus sunt
+                        molestias, voluptatem esse rem ut?</p>
                 </article>
             </div>
         </section>
 
         <section id="projects">
-            <div class="section-title">
-                <h2>Projects</h2>
+            <div class="about-title">
+                <span>Projects</span>
             </div>
-            <div class="section-center">
+            <div class="section-center section-project">
                 <div class="card-list">
                     <div class="project-card">
                         <div class="project-img">
